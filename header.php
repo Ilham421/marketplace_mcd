@@ -14,8 +14,6 @@
 <header>
   <!-- Cek Jaringan -->
   <section id="statusjaringan"></section>
-
-  <!-- Header -->
   
   <!-- Navbar -->
   <div class="topnav" id="myTopnav" data-aos="fade-down" data-aos-duration="1000">
