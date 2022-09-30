@@ -76,12 +76,17 @@
 }
 
 .kemnaker {
-    display: flex;
     align-items: center;
+    display: flex;
     color: rgb(87, 85, 85);
     font-size: 2em;
     font-weight: bold;
     width: 600px;
+}
+
+.kemnaker a {
+    align-items: center;
+    display: inline-block;
 }
 
 .kemnaker a {
@@ -106,8 +111,8 @@
     .topnav.responsive {
         height: 100vh;
         position: fixed;
-      }
-    
+    }
+
     .topnav.responsive .icon {
         position: absolute;
         right: 0;
