@@ -31,7 +31,7 @@
     <div class="daftar_produk" data-aos="fade-up-right" data-aos-offset="450" data-aos-duration="1200">
         <h2>Data Produk</h2>
         <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Product.." title="Type in a name">
-        <table width="100%" id="tamu">
+        <table width="100%" id="produk">
             <tr class="header_table">
                 <th>No</th>
                 <th>Kode Produk</th>
