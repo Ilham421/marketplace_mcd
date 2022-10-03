@@ -23,7 +23,7 @@
       <h1>PROMO</h1>
     </div>
     <!-- Menu Promo -->
-    <section class="menu">
+    <section class="menu">      <!-- Section Untuk Card Menu Promo  -->
         <div class="item">
           <div class="badge">Potongan 10k</div>
           <nav>
