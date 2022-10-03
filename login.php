@@ -1,8 +1,5 @@
 <!-- @Copyright 2022-2059 Mas-Backend.Com -->
-
 <!DOCTYPE html>
-
-
 <?php
 
 // login.php
@@ -130,7 +127,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         }
     </style>
 </head>
-<body style="background-image: url('image/heading1.jpg'); ">
+<body >
+    <!-- Login Start -->
     <div class="wrapper" data-aos="zoom-in-up" data-aos-duration="1000">
         <h2>Login</h2>
         <p>Silahkan isi data yang dibutuhkan untuk mengakses halaman anda.</p>
@@ -163,13 +161,14 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <p>Kembali Home ? <a href="index.php">Klik disini!</a>.</p>
         </form>
     </div>
+    <?php } ?>
+    <!-- Login End -->
 </body>
 </html>
-<?php
-}
-?>
 
+<!-- Script AOS Start (Animate On Scroll) -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     AOS.init();
 </script>
+<!-- Script AOS End -->

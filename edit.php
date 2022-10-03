@@ -22,6 +22,7 @@
             exit;
         }
 
+        // Koneksi Db
         require_once "process/koneksi.php";
     ?>
 
@@ -31,7 +32,6 @@
     <?php
         include 'process/koneksi.php';
 
-        // Memanggil NIK menggunakan Query Table Tamu
         $id = $_GET['kode'];
         $query_mysql = mysqli_query($conn, "SELECT * FROM produk WHERE kode_barang='$id'")or die(mysql_error());
         

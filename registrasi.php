@@ -118,7 +118,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         .wrapper{ width: 380px; padding: 20px; margin:0 auto; display: block; margin-top: 60px; background: #fff;}
     </style>
 </head>
-<body style="background-image: url('image/heading1.jpg');">
+<body>
     <div class="wrapper" data-aos="fade-down" data-aos-duration="1000">
         <h2>Registrasi</h2>
         <p>Silahkan isi form dibawah untuk melanjutkan.</p>

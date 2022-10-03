@@ -28,7 +28,7 @@
 
     ?>
 
-    <!-- Daftar Barang -->
+    <!-- Daftar Barang Start -->
     <div class="daftar_produk" data-aos="fade-up-right" data-aos-offset="450" data-aos-duration="1200">
         <h2>Data Produk</h2>
         <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Product.." title="Type in a name">
@@ -69,8 +69,9 @@
             <?php } ?>
         </table>
     </div>
+    <!-- Daftar Barang End -->
 
-    <!-- Tambah Produk -->
+    <!-- Tambah Produk Start -->
     <div class="form_produk" data-aos="fade-up-left" data-aos-duration="1200" data-aos-offset="500" data-aos-delay="250">
         <h2>Tambah Produk</h2>
         <form  action="process/tambah_produk.php" method="GET" class="form-tamu">
@@ -90,7 +91,10 @@
             <input type="submit" value="Input" name="input">    
         </form>
     </div>
+    <!-- Tambah Produk End -->
+    
 
+    <!-- AOS Start-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         const menu= document.querySelectorAll('.item');
@@ -104,6 +108,7 @@
 
         AOS.init();
   </script>
+  <!-- AOS End -->
 
     <?php
         include_once 'footer.php';
