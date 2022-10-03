@@ -21,6 +21,7 @@
 }
 
 .detail_visi {
+    text-align: justify;
     font-size: 1.6em;
 }
 
@@ -39,5 +40,6 @@
 }
 
 .detail_misi {
+    text-align: justify;
     font-size: 1.6em;
 }

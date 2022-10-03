@@ -61,7 +61,8 @@
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    font-weight: bold;
+    transform: scale(1.2);
     border-radius: 10px;
     color: black;
 }

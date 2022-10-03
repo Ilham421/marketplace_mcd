@@ -43,7 +43,7 @@
 					<span>About the company</span>
 					McDonald’s adalah menjadi restoran cepat saji dengan pelayanan terbaik di dunia.</p>
 				<div class="footer-icons">
-					<a href="https://facebook.com/Mohamad" target="_blank"><i class="fa fa-facebook"></i></a>
+					<a href="https://facebook.com/mohamad.ilham.7334504" target="_blank"><i class="fa fa-facebook"></i></a>
 					<a href="https://instagram.com/ilham_aj2" target="_blank"><i class="fa fa-instagram"></i></a>
 					<a href="https://api.whatsapp.com/send/?phone=6281385085695&text&type=phone_number&app_absent=0" target="_blank"><i class="fa fa-whatsapp"></i></a>
 				</div>
