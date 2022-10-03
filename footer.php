@@ -6,7 +6,7 @@
 <footer class="footer-distributed">
 
 			<div class="footer-left">
-				<h3>About</h3/
+				<h3>Menu</h3/
 
 				<p class="footer-links">
 					<a href="#">Home</a>
