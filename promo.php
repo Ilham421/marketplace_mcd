@@ -25,30 +25,29 @@
     <!-- Menu Promo -->
     <section class="menu">      <!-- Section Untuk Card Menu Promo  -->
         <div class="item">
-          <div class="badge">Potongan 10k</div>
+          <div class="badge">Potongan 10k</div>                 <!-- Diskon atau badge pada menu card -->
           <nav>
             <a href="#">
-              <span class="material-icons">
-                shopping_basket
+              <span class="material-icons">                     <!-- Icon Cart/Keranjang -->
+                shopping_basket       
               </span>
             </a>
             <a href="#">
-              <span class="material-icons">
+              <span class="material-icons">                     <!-- Icon Favorite/Love/Hati -->
                 favorite
               </span>
             </a>
             <a href="#" class="active">
-              <span class="material-icons">
+              <span class="material-icons">                     <!-- Icon Eye/Mata -->
                 visibility
               </span>
             </a>
           </nav>
           <div class="foto">
-            <img src="image/promo-1.png" alt="menu 1" />
+            <img src="image/promo-1.png" alt="menu 1" />        <!-- Gambar menu promo ke 1 -->
           </div>
           <div class="keterangan">
-            
-            <div class="bintang">
+            <div class="bintang">                               <!-- Untuk menambahkan rating bintang pada menu card -->
               <span class="material-icons active">star</span>
               <span class="material-icons active">star</span>
               <span class="material-icons active">star</span>
@@ -56,12 +55,10 @@
               <span class="material-icons active">star</span>
             </div>
           </div>
-          <div class="nama">
-          Himalayan Latte Frappe
-          </div>
+          <div class="nama">Himalayan Latte Frappe</div>        <!-- Nama menu promo ke 1 -->
           <div class="harga">
-            Harga <span class="merah">Rp.35.500</span>
-            <span class="coret">Rp.45.500</span>
+            Harga <span class="merah">Rp.35.500</span>          <!-- Harga menu promo ke 1 -->
+            <span class="coret">Rp.45.500</span>                <!-- Harga yang di coret -->
           </div>
         </div>
         <div class="item">
