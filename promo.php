@@ -24,8 +24,10 @@
     </div>
     <!-- Menu Promo -->
     <section class="menu">      <!-- Section Untuk Card Menu Promo  -->
-        <div class="item">
-          <div class="badge">Potongan 10k</div>                 <!-- Diskon atau badge pada menu card -->
+        
+      <!-- Card Menu 1 Start -->
+        <div class="item">                                      <!-- Wrapper menu promo ke 1 -->
+          <div class="badge">Potongan 10k</div>                 <!-- Diskon atau badge pada menu card ke 1 -->
           <nav>
             <a href="#">
               <span class="material-icons">                     <!-- Icon Cart/Keranjang -->
@@ -61,30 +63,32 @@
             <span class="coret">Rp.45.500</span>                <!-- Harga yang di coret -->
           </div>
         </div>
-        <div class="item">
-          <div class="badge">Potongan 15k</div>
+        <!-- Card Menu 1 End -->
+
+        <!-- Card Menu 2 Start -->
+        <div class="item">                                      <!-- Wrapper menu promo ke 2 -->
+          <div class="badge">Potongan 15k</div>                 <!-- Diskon atau badge pada menu card ke 2 -->    
           <nav>
             <a href="#">
-              <span class="material-icons">
+              <span class="material-icons">                     <!-- Icon Cart/Keranjang -->
                 shopping_basket
               </span>
             </a>
             <a href="#">
-              <span class="material-icons">
+              <span class="material-icons">                     <!-- Icon Favorite/Love/Hati -->
                 favorite
               </span>
             </a>
             <a href="#" class="active">
-              <span class="material-icons">
+              <span class="material-icons">                     <!-- Icon Eye/Mata -->
                 visibility
               </span>
             </a>
           </nav>
           <div class="foto">
-            <img src="image/promo-2.png" alt="menu 2" />
+            <img src="image/promo-2.png" alt="menu 2" />        <!-- Gambar menu promo ke 2 -->
           </div>
-          <div class="keterangan">
-            
+          <div class="keterangan">                              <!-- Untuk menambahkan rating/bintang pada menu card -->
             <div class="bintang">
               <span class="material-icons active">star</span>
               <span class="material-icons active">star</span>
@@ -93,14 +97,17 @@
               <span class="material-icons grey">star</span>
             </div>
           </div>
-          <div class="nama">
+          <div class="nama">                                    <!-- Nama menu promo 2 -->
               Himalayan Latte Frappe with Cake
           </div>
           <div class="harga">
-            Harga <span class="merah">Rp. 56.000 </span> 
-            <span class="coret">Rp. 71.000</span>
+            Harga <span class="merah">Rp. 56.000 </span>        <!-- Harga menu promo 2 -->
+            <span class="coret">Rp. 71.000</span>               <!-- Harga yang dicoret -->
           </div>
         </div>
+        <!-- Card Menu 2 End -->
+
+        <!-- Card Menu 1 Start -->
         <div class="item">
           <div class="badge">Potongan 9k</div>
           <nav>
@@ -140,6 +147,9 @@
             <span class="coret">Rp. 41.500</span>
           </div>
         </div>
+        <!-- Card Menu 2 End -->
+
+        
         <div class="item">
           <div class="badge">Potongan 15k</div>
           <nav>
