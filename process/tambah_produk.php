@@ -21,6 +21,6 @@
     // Jalankan Query
    mysqli_query($conn,$sql);
       
-   header("locaitn: ../produk.php");
+   header("location: ../produk.php");
 ?>
 
