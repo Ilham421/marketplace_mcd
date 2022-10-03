@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Promo</title>           <!-- Title pada halaman Menu Promo -->
+    <link rel="shortcut icon" href="image/favico.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />    <!-- Link CSS AOS (Animate On Scroll) -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />  <!-- Link Google Font  -->
     <link rel="stylesheet" href="css/product.css">          <!-- Link CSS untuk card product -->
@@ -14,7 +15,6 @@
     <!-- Untuk memanggil Header -->
     <?php
         include 'header.php'
-
     ?>
     <!-- Header End -->
 
