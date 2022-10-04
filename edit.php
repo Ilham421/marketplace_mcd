@@ -14,13 +14,13 @@
     // Header
         include 'header.php';
 
-        session_start();
+        // session_start();
         
         // Jika belum login akan diarahkan ke halaman login
-        if(isset($_SESSION["loggedin"]) == false){
-            header("location: login.php");
-            exit;
-        }
+        // if(isset($_SESSION["loggedin"]) == false){
+        //     header("location: login.php");
+        //     exit;
+        // }
 
         // Koneksi Db
         require_once "process/koneksi.php";
