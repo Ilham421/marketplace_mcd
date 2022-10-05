@@ -60,9 +60,9 @@
 	<?php } ?>
 
     <?php 
-       $id = $_GET['nik'];
-        $query_mysql = mysqli_query($conn, "SELECT * FROM tb_tamu WHERE NIK='$id'")or die(mysql_error());
-        $hasill = mysqli_fetch_array($query_mysql);
+       $id = $_GET['kode'];
+        $query_mysql = mysqli_query($conn, "SELECT * FROM produk WHERE kode_barang='$id'")or die(mysql_error());
+        $hasilProduk = mysqli_fetch_array($query_mysql);
     ?>
 
 
@@ -72,7 +72,7 @@
         AOS.init();
   </script>
     <script>
-        let selectedName = "<?php echo $hasilProduk['kategori'];?>";
+        let selectedName = "<?php echo $hasilProduk['kategori_barang'];?>";
         let dropdown = document.getElementById('kategori');
         let options = dropdown.children;
         
