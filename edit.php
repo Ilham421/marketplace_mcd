@@ -60,7 +60,9 @@
 	<?php } ?>
 
     <?php 
-       
+       $id = $_GET['nik'];
+        $query_mysql = mysqli_query($conn, "SELECT * FROM tb_tamu WHERE NIK='$id'")or die(mysql_error());
+        $hasill = mysqli_fetch_array($query_mysql);
     ?>
 
 
